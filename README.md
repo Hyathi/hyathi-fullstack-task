@@ -10,8 +10,6 @@ Your task is to create an application that simulates a virtual Pokemon adoption 
 - Once a Pokemon is adopted, the user can feed the Pokemon (each feeding increases Pokemon's health status).
 - If a Pokemon isn't fed for a certain time (ex: 24 hours), its health status decreases.
 
-We will provide you with a basic code skeleton for both the frontend and the backend, which has a few different bugs that prevent the application from running. Your first task will be to identify and resolve these bugs to get the application running.
-
 Please note, the main goal of this task is to understand your mindset, approach, technical understanding, problem-solving skills, and logical reasoning capabilities rather than just delivering a complete project. Feel free to document your process and decisions in the code comments or in your commit messages.
 
 ## Tech Stack
