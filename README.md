@@ -1,4 +1,4 @@
-# Hyathi Full Stack Developer Test - Virtual Pet Adoption App
+# Hyathi Technologies Full Stack Development Task - Virtual Pet Adoption App
 
 ## Objective
 
@@ -8,9 +8,9 @@ Your task is to create an application that simulates a virtual pet adoption scen
 - View available pets for adoption (each pet has different attributes like breed, age, health status, etc.).
 - Adopt a pet (Each user can adopt multiple pets, but each pet can be adopted only once).
 - Once a pet is adopted, the user can feed the pet (each feeding increases pet's health status).
-- If a pet isn't fed for a certain time (ex: 24 hours), its health status decreases.
+- If a pet isn't fed for a certain time (ex: 2 hours), its health status decreases.
 
-We will provide you with a basic code skeleton for both the frontend and the backend, which has a few different bugs that prevent the application from running. Your first task will be to identify and resolve these bugs to get the application running.
+Please note, the main goal of this task is to understand your mindset, approach, technical understanding, problem-solving skills, and logical reasoning capabilities rather than just delivering a complete project. Feel free to document your process and decisions in the code comments or in your commit messages.
 
 ## Tech Stack
 
@@ -30,7 +30,7 @@ While we've provided a 5-day breakdown, feel free to complete the project early 
 
 ### Day 1
 
-- Identify and resolve the bugs in the provided skeleton code to get the application running.
+- Get the application running.
 - Develop the User Registration functionality:
    - Backend: Create the appropriate endpoint and database schema for user registration.
    - Frontend: Use React to create the registration form and handle the form submission.
@@ -60,7 +60,6 @@ While we've provided a 5-day breakdown, feel free to complete the project early 
 
 - Implement a job (using something like node-cron) that decreases the health status of each pet that hasn't been fed in the last 24 hours.
 - Document all the endpoints using Postman and provide a collection of requests.
-
-Please note that while we would love to see a complete project, our main focus is on understanding your approach, problem-solving skills, technical thinking, and logical reasoning. We're interested in seeing how you tackle problems and work through challenges, so feel free to document your process and decisions in the code comments or in your commit messages.
+- After the task is completed please add iamuddeshya in your repo as a collaborator and email ua@hyathi.com to acknowledge you completed the task attaching the repo link in the email.
 
 Good luck!
