@@ -1,0 +1,55 @@
+body{
+    background-color: #020117;
+}
+
+.head {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 25px;
+    color: grey;
+    border-left: 7px solid greenyellow;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.main_Box{
+    width: 35vw;
+    height: 75vh;
+    background: linear-gradient(rgb(23, 23, 23), rgb(34, 34, 34)) padding-box,
+        linear-gradient(to right, rgb(23, 242, 125), rgb(235, 140, 31)) border-box;
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    padding: 14px 21px;
+}
+
+.inpts{
+    background: rgb(79, 79, 79);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(79,79,79);
+    transition: 0.25s;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 20px;
+}
+
+.inpts:hover{
+    border-bottom: 2px solid rgb(23, 242, 125);
+}
+
+.colwhite{
+    color: #fff;
+}
+
+.fntsz{
+    font-size: 20px;
+}
