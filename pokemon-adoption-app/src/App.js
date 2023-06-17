@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter } from "react-router-dom";
+
+import "./App.css";
+
+import Navbar from "./components/navbar/Navbar";
+import Popup from "./components/Popup/Popup";
 
 function App() {
+  var User = false;
+  const [popup, setPopup] = useState(false);
+  useEffect(() => {
+    if (User) {
+      setPopup(false);
+    } else {
+      setPopup(true);
+    }
+  }, [User]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Popup trigger={popup} setTrigger={setPopup} onClose={popup}>
+        </Popup>
+        <Navbar />
+      </BrowserRouter>
     </div>
   );
 }

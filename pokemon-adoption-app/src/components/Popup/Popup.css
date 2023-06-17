@@ -1,0 +1,37 @@
+/* .popup{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    
+    height: 100vh;
+    background-color: rgba(13, 13, 13, 0.688);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    font-weight: 800;
+    font-size: large;
+    color: red;
+    right: 16px;
+    border-width: 1px;
+    padding: 4px 8px;
+    border-color: red;
+    border-radius: 50%;
+}
+
+
+@media (max-width:1000px) and (min-width:580px){
+
+} */
+
+
+.popup-inner{
+    text-align: center;
+    align-items: center;
+}
